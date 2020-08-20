@@ -1,0 +1,78 @@
+.App{
+  height: 1080px;
+  width: 1920px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formLight{
+  width: 100%;
+}
+
+.inputLines{
+  width: 380px;
+  height: 45px;
+  padding: 0 5px 0 5px;
+  line-height: 1.2;
+  font-size: 15px;
+  margin-bottom: 27px;
+  background: 0 0;
+  color: #fff;
+  display: block;
+  border-bottom: 2px solid rgba(255, 255, 255, .24);
+}
+
+input{
+  outline: none;
+  border: none;
+}
+
+::placeholder{
+  color: #fff;
+}
+
+button{
+  outline: none!important;
+  border: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+
+#side-nav{
+  width: 50px;
+  float: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#side-nav #btn{
+  font-size: 30px;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+.settings{
+  width: 100%;
+  min-height: 100%;
+  background-color: #140718;
+  position: fixed;
+}
+
+.title-large{
+  font-size: 35pt;
+  color: white;
+  font-family: "Helvetica";
+}
+
+.class-button{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: gray;
+}
